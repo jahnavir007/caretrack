@@ -1,0 +1,7 @@
+:root { --teal: #0f6e6e; --teal-dark: #0b5858; }
+.bg-teal { background-color: var(--teal) !important; }
+.btn-teal { background-color: var(--teal); border-color: var(--teal); color: #fff; }
+.btn-teal:hover, .btn-teal:focus { background-color: var(--teal-dark); border-color: var(--teal-dark); color: #fff; }
+.card.stat { border-left: 4px solid var(--teal); }
+a { color: var(--teal); }
+a:hover { color: var(--teal-dark); }
